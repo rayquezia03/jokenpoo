@@ -6,7 +6,7 @@ const Personagens = () => {
 
 	return (
 		<View style={styles.main}> 
-            <TouchableOpacity onpress={() => this.onPress()} >
+            <TouchableOpacity onpress={() => this.onPress(1)} >
                 <Image
                     source={ require('../../img/pedra.png')}
                     style = {styles.image}
@@ -18,21 +18,21 @@ const Personagens = () => {
                     style = {styles.image}
                 />
 	        </TouchableOpacity>
-            <TouchableOpacity onpress={() => this.onPress()} >
+            <TouchableOpacity onpress={() => this.onPress(3)} >
                 <Image
                     source={ require('../../img/tesoura.png')}
                     style = {styles.image}
                 />
 	        </TouchableOpacity>
-            <TouchableOpacity onpress={() => this.onPress()} >
+            <TouchableOpacity onpress={() => this.onPress(4)} >
                 <Image
                     source={ require('../../img/lagarto.png')}
                     style = {styles.image}
                 />
 	        </TouchableOpacity>
-            <TouchableOpacity onpress={() => this.onPress()} >
+            <TouchableOpacity onpress={() => this.onPress(5)} >
                 <Image
-                    source={ require('../../img/spock.png')}
+                    source={ require('../../img/papel.png')}
                     style = {styles.image}
                 />
 	        </TouchableOpacity>
@@ -46,12 +46,11 @@ const Personagens = () => {
 const styles = StyleSheet.create({
 
 	image: {
-	    justifyContent:'space-around',
-        flexDirection: 'row',
+        justifyContent:'space-around',   
         borderRadius: 100,
         width: 64,
         height: 64, 
-        
+
 	  },
 });
 
