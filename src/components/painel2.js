@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 import { View, StyleSheet, Image} from "react-native";
-import Personagens from './personagens';
+import Personagens from './Personagens';
 
 export default function Painel(){
     const [touchImage, setTouch ] = useState(false)

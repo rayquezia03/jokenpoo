@@ -3,7 +3,7 @@ import { View, StyleSheet} from "react-native";
 import Topo from "../components/Topo";
 import Painel from "../components/Painel";
 import Painel2 from "../components/painel2";
-import Personagens from "../components/personagens";
+import Personagens from "../components/Personagens";
 //import Score from "../components/score";
 
 const messages = {
