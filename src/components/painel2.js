@@ -1,8 +1,9 @@
 import {React, useState} from 'react'
 import { View, StyleSheet, Image} from "react-native";
+import Personagens from './personagens';
 
 export default function Painel(){
-    const [touchImage, setTouch] = useState(false)
+    const [touchImage, setTouch ] = useState(false)
     return(
         <View style={styles.container}>
             <Image
